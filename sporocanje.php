@@ -1,4 +1,7 @@
 //$_POST["uporid"] ----> dobis id trenutno prijavljenega človeka.<!DOCTYPE html>
+    <?php
+    session_start();
+?>
 <html lang="">
 <head>
     <meta charset="UTF-8">
@@ -9,8 +12,9 @@
 
 <body>
     <?php
-
+    print_r($_SESSION);
 ?>
+
 </body>
 </html>
 
